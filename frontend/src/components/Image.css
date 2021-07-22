@@ -1,0 +1,13 @@
+.imageCard{
+    height: 200px;
+    padding: 0.5rem;
+    display: flex !important;
+    cursor: pointer;
+}
+.imageCard:hover img{
+    filter: brightness(60%)
+}
+.imageCard img{
+    width: 100%;
+    height: auto;
+}
